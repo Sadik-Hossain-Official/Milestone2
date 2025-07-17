@@ -20,6 +20,9 @@ nav, .banner, main,footer{
 .dark-2{
     color:#424242;
 }
+.dark-3{
+    color: #727272;
+}
 /* button-styles */
 .button{
     background-color: orangered;
@@ -47,6 +50,12 @@ nav, .banner, main,footer{
 }
 main>section{
     margin-top:100px;
+}
+.bottom{
+    margin-bottom:0px;
+}
+.top{
+    margin-top:0px;
 }
 
 /* display flex */
@@ -112,6 +121,24 @@ nav{
     font-weight: 500;
 }
 
+/* fact styles */
+.fact-items{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:100px;
+}
+.fact-item{
+    border:1px solid orangered;
+    border-radius: 8px;
+    width:150px;
+    height:140px;
+    text-align: center;
+    padding:40px;
+}
+#fact-description{
+    max-width:500px;
+}
+
 
 
 
@@ -144,5 +171,10 @@ nav{
   }
   .our-features{
     margin:10px auto;
+  }
+  .fact-items{
+    flex-direction: column;
+    gap:5px;
+    margin-left:70px;
   }
 }
