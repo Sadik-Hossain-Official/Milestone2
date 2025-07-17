@@ -96,6 +96,7 @@ nav{
     }
     .nav-item{
         margin-right:10px;
+        text-align: center;
     }
     .nav-link{
         font-size:0.75rem;
@@ -103,5 +104,9 @@ nav{
     .banner-title{
         font-size:2rem;
     }
-    
+    .banner button{
+        height:30%;
+        width:45%;
+        padding:15px;
+    }
 }
