@@ -26,8 +26,6 @@ nav, .banner, main,footer{
     color: white;
     border-radius:8px;
     padding:20px;
-    font-size:1.25rem;
-    font-weight:600;
     border: none;
 
 }
@@ -41,6 +39,14 @@ nav, .banner, main,footer{
     font-size:1rem;
     font-weight: 300;
     color:#727272;
+}
+/* button and subtitle */
+.bs-font{
+    font-size:1.25rem;
+    font-weight:600;
+}
+main>section{
+    margin-top:100px;
 }
 
 /* display flex */
@@ -84,6 +90,27 @@ nav{
     padding-bottom:20px;
 }
 
+/* team styles */
+.team{
+    align-items: center;
+}
+
+.team-imgs{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 20px;
+}
+.our-features{
+    margin-left:40px;
+    border-radius:8px;
+}
+#feature{
+    color: orangered;
+}
+#quick-list{
+    color: #727272;
+    font-weight: 500;
+}
 
 
 
@@ -109,4 +136,13 @@ nav{
         width:45%;
         padding:15px;
     }
+    .team{
+        flex-direction: column-reverse;
+    }
+  .team-imgs{
+    grid-template-columns:repeat(1,1fr);
+  }
+  .our-features{
+    margin:10px auto;
+  }
 }
